@@ -54,9 +54,7 @@ namespace SoftUniExamResults
                     points = int.Parse(parts[2]);
 
                     if (pointsByUser[userName] < points)
-                    {
-                        
-
+                    {     
                         if (submsByLanguage.ContainsKey(language))
                         {
                             submsByLanguage[language]++;
